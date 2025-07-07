@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "suho~kztDkDaY#xgyi6tceEo2EtpKbuWKdXIrVIIczWKDmtTOz434mvpM",
+    SESSION_ID: process.env.SESSION_ID || "suho~t2EV1I4J#VXwJTijPVxKL4QLT5vJPcIM-sXxzyJMB_rvb5IslJ4U",
     // add your Session Id make sure it starts with suho~
 
     PREFIX: process.env.PREFIX || "'",
@@ -36,7 +36,7 @@ module.exports = {
     AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*sᴛᴀᴛᴜs sᴇᴇɴ ʙʏ ᴍᴇ 😆*",
     // set the auto reply message on status reply  
 
-    WELCOME: process.env.WELCOME || "true",
+    WELCOME: process.env.WELCOME || "false",
     // true if want welcome and goodbye msg in groups 
 
     ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
@@ -76,10 +76,10 @@ module.exports = {
     DELETE_LINKS: process.env.DELETE_LINKS || "false",
     // automatic delete links without removing member 
 
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "18292748112",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "18293511531",
     // add your bot owner number
 
-    OWNER_NAME: process.env.OWNER_NAME || "ᴍʀ sᴜɴɢ",
+    OWNER_NAME: process.env.OWNER_NAME || "dacheno",
     // add bot owner name
 
     DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ sᴜɴɢ sᴜʜᴏ*",
